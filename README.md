@@ -8,3 +8,11 @@ The lithium batteries commonly found in mobile devices exhibit optimal performan
 
 This program provides a solution by integrating both software and hardware components. It introduces an external hardware module, utilizing an Arduino and a relay system, which can be installed between the power source and the device. This hardware component acts as a safeguard by interrupting the power supply when the charging level reaches a user-defined upper limit. Additionally, it initiates the charging process when the battery level drops to a lower threshold set by the user. This proactive control mechanism ensures that the battery operates within the recommended range, ultimately extending its lifespan.
 
+Requirements:
+Software:
+1)Python installed(download and install from official site)
+2)Pyserial installed (pip install pyserial If pip is installed)
+
+Hardware:
+1)Arduino
+2)Relay module
